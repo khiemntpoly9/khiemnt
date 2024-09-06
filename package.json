@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://khiemntpoly9.github.io/khiemnt/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
