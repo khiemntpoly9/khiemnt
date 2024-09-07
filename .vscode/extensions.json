@@ -1,7 +1,10 @@
 {
-  "recommendations": [
-    "monokai.theme-monokai-pro-vscode",
-    "vue.volar",
-    "github.vscode-github-actions"
-  ]
+	"recommendations": [
+		"monokai.theme-monokai-pro-vscode",
+		"vue.volar",
+		"github.vscode-github-actions",
+		"esbenp.prettier-vscode",
+		"csstools.postcss",
+		"bradlc.vscode-tailwindcss"
+	]
 }
