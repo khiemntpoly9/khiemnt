@@ -1,12 +1,12 @@
 const home = [
 	{
 		path: '/',
-		component: () => import('../layouts/home.vue'),
+		component: () => import('../layouts/Main-Layout.vue'),
 		children: [
 			{
 				path: '',
 				name: 'home',
-				component: () => import('../pages/Main.vue'),
+				component: () => import('../pages/Portfolio.vue'),
 			},
 		],
 	},

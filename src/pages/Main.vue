@@ -1,12 +1,14 @@
 <script setup>
 	import { useDark, useToggle } from '@vueuse/core';
 	import HelloWorld from '../components/HelloWorld.vue';
+	import Navbar from '../components/Navbar.vue';
 
 	const isDark = useDark();
 	const toggleDark = useToggle(isDark);
 </script>
 
 <template>
+	<Navbar />
 	<div>isDark: {{ isDark }}</div>
 	<button @click="toggleDark()" class="rounded bg-green-500 px-4 py-2 dark:bg-purple-500">Dark Mode</button>
 	<div>
